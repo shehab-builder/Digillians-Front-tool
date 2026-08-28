@@ -9,7 +9,7 @@ import { AuthProvider } from "./context/AuthContext";
 
 // Layout & Protection Wrappers
 import AppLayout from "./Components/layout/AppLayout";
-import ProtectedRoute from "./components/protected/ProtectedRoute";
+import ProtectedRoute from "./Components/protected/ProtectedRoute";
 
 // Pages
 import LoginPage from "./Pages/Auth/LoginPage";
