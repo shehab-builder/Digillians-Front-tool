@@ -8,11 +8,11 @@ import {
 import { AuthProvider } from "./context/AuthContext";
 
 // Layout & Protection Wrappers
-import AppLayout from "./components/layout/AppLayout";
+import AppLayout from "./Components/layout/AppLayout";
 import ProtectedRoute from "./components/protected/ProtectedRoute";
 
 // Pages
-import LoginPage from "./pages/auth/LoginPage";
+import LoginPage from "./Pages/Auth/LoginPage";
 
 // Admin Pages
 import AdminDashboard from "./Pages/Admin/AdminDashboard";
@@ -23,7 +23,7 @@ import TeamsPage from "./Pages/Admin/TeamsPage";
 import MasterEvaluationsPage from "./Pages/Admin/MasterEvaluationsPage";
 import ScheduledEvaluations from "./Pages/Admin/SchedulledEvaluations";
 import JudgeDashboard from "./Pages/Judge/JudgeDashboard";
-import JudgeEvaluation from "./pages/Judge/JudgeEvaluation";
+import JudgeEvaluation from "./Pages/Judge/JudgeEvaluation";
 
 // Judge Pages
 // import JudgeDashboard from "./pages/judge/JudgeDashboard";

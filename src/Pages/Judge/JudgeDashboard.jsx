@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import api from "../../services/api";
 import {
   Building2,
@@ -9,10 +9,8 @@ import {
   CheckCircle2,
   Loader2,
   AlertCircle,
-  PlayCircle,
   UserCheck,
   MapPin,
-  ListOrdered,
   CheckCircle,
 } from "lucide-react";
 

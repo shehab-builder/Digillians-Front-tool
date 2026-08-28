@@ -1,13 +1,5 @@
 import { useState, useEffect, useCallback } from "react";
-import {
-  Search,
-  Lock,
-  Unlock,
-  Clock,
-  Loader2,
-  ChevronLeft,
-  ChevronRight,
-} from "lucide-react";
+import { Search, Loader2, ChevronLeft, ChevronRight } from "lucide-react";
 import api from "../../services/api";
 
 export default function MasterEvaluationsPage() {
