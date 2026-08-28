@@ -5,7 +5,6 @@ import {
 } from "react-router-dom";
 
 // Context Providers
-import { AuthProvider } from "./context/AuthContext";
 
 // Layout & Protection Wrappers
 import AppLayout from "./Components/layout/AppLayout";
@@ -24,6 +23,7 @@ import MasterEvaluationsPage from "./Pages/Admin/MasterEvaluationsPage";
 import ScheduledEvaluations from "./Pages/Admin/SchedulledEvaluations";
 import JudgeDashboard from "./Pages/Judge/JudgeDashboard";
 import JudgeEvaluation from "./Pages/Judge/JudgeEvaluation";
+import { AuthProvider } from "./context/AuthProvider";
 
 // Judge Pages
 // import JudgeDashboard from "./pages/judge/JudgeDashboard";
